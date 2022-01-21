@@ -1,0 +1,53 @@
+#!/usr/bin/python3
+
+from time import strptime
+from datetime import datetime
+import locale
+import sys
+
+from bs4 import BeautifulSoup
+
+
+YEAR = 2022
+
+with open(sys.argv[1]) as f:
+	html = f.read()
+
+soup = BeautifulSoup(html, 'html.parser')
+tables = [
+    [
+        [td.get_text(strip=True) for td in tr.find_all('td')]
+        for tr in table.find_all('tr')
+    ]
+    for table in soup.find_all('table')
+]
+
+assert len(tables) == 1  # we're only expecting one table
+table = tables[0]
+
+locale.setlocale(locale.LC_ALL, 'sk_SK.utf8')
+
+month = None
+day = None
+for row in table:
+    if not row:
+        continue
+    if len(row) == 1:
+        #import ipdb; ipdb.set_trace()
+        month = row[0]
+        if not month:
+            continue
+        month = strptime(month[:3], '%b').tm_mon
+        continue
+    col = row[0]
+    try:
+        day = int(col)
+    except:
+        continue
+    if len(row) <= 4:
+        continue
+    garbage = [i for i in row[2:8] if i != 'X']
+    date = datetime.strptime(
+        '%i%i%2i' % (YEAR, month, day),
+        '%Y%m%d').date()
+    print(date, garbage)

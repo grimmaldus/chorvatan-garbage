@@ -1,2 +1,5 @@
 # chorvatan-garbage
-Scrubber for chorvatan.sk/odpadovy-kalendar-grob/ garbage table
+Data scrubbing for chorvatan.sk/odpadovy-kalendar-grob/ table
+
+## Usage
+`$ ./scrub sample.html`
