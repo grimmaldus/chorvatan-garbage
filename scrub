@@ -90,7 +90,7 @@ for row in table:
     for i in row[2:8]:
         if i == 'X':
             continue
-        if i[0] == 'K' and i != SUBSCRIPTION:
+        if i[0] == 'K' and i != 'KU' and i != SUBSCRIPTION:
             continue
         codes.append(i)
     if not codes:
