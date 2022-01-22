@@ -35,7 +35,7 @@ def create_event(cal, codes):
     event = Event()
     names = [NAMES[i] for i in codes]
     description = ['- ' + LEGEND[i] for i in codes]
-    event.add('summary', 'Odpad: ' + ', '.join(names))
+    event.add('summary', 'Odpad: ' + ' + '.join(names))
     event.add('description', '\n'.join(description))
     event.add('dtstart', date)
     event.add('dtend', date)
