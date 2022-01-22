@@ -10,6 +10,7 @@ from icalendar import Calendar, Event
 
 
 YEAR = 2022
+SUBSCRIPTION = ['K12', 'K26', 'K52']
 LEGEND = {
     'K12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
     'K26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
@@ -19,6 +20,28 @@ LEGEND = {
     'BIO': 'Tráva, lístie, konáre, šupky, zelenina, ovocie',
     'KU':  'Kuchynský odpad',
 }
+NAMES = {
+    'K12': 'Čierna nádoba mesačný',
+    'K26': 'Čierna nádoba dvojtýždenný',
+    'K52': 'Čierna nádoba týždenný',
+    'PKV': 'Žltá nádoba',
+    'PAP': 'Modrá nádoba',
+    'BIO': 'Hnedá nádoba',
+    'KU':  'Kuchynský odpad',
+}
+
+
+def create_event(cal, codes):
+    event = Event()
+    names = [NAMES[i] for i in codes]
+    description = ['- ' + LEGEND[i] for i in codes]
+    event.add('summary', 'Odpad: ' + ', '.join(names))
+    event.add('description', '\n'.join(description))
+    event.add('dtstart', date)
+    event.add('dtend', date)
+    #event.add('dtstamp', )
+    return event
+
 
 with open(sys.argv[1]) as f:
 	html = f.read()
@@ -59,17 +82,11 @@ for row in table:
         continue
     if len(row) <= 4:
         continue
-    garbage = [i for i in row[2:8] if i != 'X']
-    garbage = '\n'.join(['- ' + LEGEND[i] for i in garbage])
     date = datetime.strptime(
         '%i%i%2i' % (YEAR, month, day),
         '%Y%m%d').date()
-    event = Event()
-    event.add('summary', 'Odpad')
-    event.add('description', garbage)
-    event.add('dtstart', date)
-    event.add('dtend', date)
-    #event.add('dtstamp', )
+    codes = [i for i in row[2:8] if i != 'X']
+    event = create_event(cal, codes)
     cal.add_component(event)
 
 with open(sys.argv[2], 'wb') as f:
