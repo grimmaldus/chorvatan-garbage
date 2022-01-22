@@ -39,7 +39,7 @@ def create_event(cal, codes):
     event.add('description', '\n'.join(description))
     event.add('dtstart', date)
     event.add('dtend', date)
-    #event.add('dtstamp', )
+    event.add('dtstamp', datetime.now())
     return event
 
 
