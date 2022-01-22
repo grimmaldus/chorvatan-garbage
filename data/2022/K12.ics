@@ -1,0 +1,367 @@
+BEGIN:VCALENDAR
+ATTENDEE:MAILTO:abc@example.com
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220107
+DTEND;VALUE=DATE:20220107
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Kuc
+ hynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221104
+DTEND;VALUE=DATE:20221104
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221201
+DTEND;VALUE=DATE:20221201
+DESCRIPTION:- Papier\, kartón\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221208
+DTEND;VALUE=DATE:20221208
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220204
+DTEND;VALUE=DATE:20220204
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Kuc
+ hynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220211
+DTEND;VALUE=DATE:20220211
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220218
+DTEND;VALUE=DATE:20220218
+DESCRIPTION:- Papier\, kartón\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220225
+DTEND;VALUE=DATE:20220225
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220304
+DTEND;VALUE=DATE:20220304
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Tr
+ áva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220311
+DTEND;VALUE=DATE:20220311
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220318
+DTEND;VALUE=DATE:20220318
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220325
+DTEND;VALUE=DATE:20220325
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220401
+DTEND;VALUE=DATE:20220401
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Tr
+ áva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220408
+DTEND;VALUE=DATE:20220408
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220415
+DTEND;VALUE=DATE:20220415
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220422
+DTEND;VALUE=DATE:20220422
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220429
+DTEND;VALUE=DATE:20220429
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220506
+DTEND;VALUE=DATE:20220506
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220513
+DTEND;VALUE=DATE:20220513
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220520
+DTEND;VALUE=DATE:20220520
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220527
+DTEND;VALUE=DATE:20220527
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220603
+DTEND;VALUE=DATE:20220603
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220610
+DTEND;VALUE=DATE:20220610
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220617
+DTEND;VALUE=DATE:20220617
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220624
+DTEND;VALUE=DATE:20220624
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220701
+DTEND;VALUE=DATE:20220701
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220708
+DTEND;VALUE=DATE:20220708
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220715
+DTEND;VALUE=DATE:20220715
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220722
+DTEND;VALUE=DATE:20220722
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220729
+DTEND;VALUE=DATE:20220729
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Modrá nádoba\, Hnedá nádoba\, Kuchyns
+ ký odpad
+DTSTART;VALUE=DATE:20220805
+DTEND;VALUE=DATE:20220805
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pap
+ ier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n
+ - Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220812
+DTEND;VALUE=DATE:20220812
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220819
+DTEND;VALUE=DATE:20220819
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220826
+DTEND;VALUE=DATE:20220826
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Modrá nádoba\, Hnedá nádoba\, Kuchyns
+ ký odpad
+DTSTART;VALUE=DATE:20220902
+DTEND;VALUE=DATE:20220902
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pap
+ ier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n
+ - Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220909
+DTEND;VALUE=DATE:20220909
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220916
+DTEND;VALUE=DATE:20220916
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220923
+DTEND;VALUE=DATE:20220923
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20220930
+DTEND;VALUE=DATE:20220930
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221007
+DTEND;VALUE=DATE:20221007
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221014
+DTEND;VALUE=DATE:20221014
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221021
+DTEND;VALUE=DATE:20221021
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221028
+DTEND;VALUE=DATE:20221028
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221104
+DTEND;VALUE=DATE:20221104
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221111
+DTEND;VALUE=DATE:20221111
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- K
+ uchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221118
+DTEND;VALUE=DATE:20221118
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Hnedá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221125
+DTEND;VALUE=DATE:20221125
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221202
+DTEND;VALUE=DATE:20221202
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Kuchynský odpad
+DTSTART;VALUE=DATE:20221209
+DTEND;VALUE=DATE:20221209
+DESCRIPTION:- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221216
+DTEND;VALUE=DATE:20221216
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Modrá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221223
+DTEND;VALUE=DATE:20221223
+DESCRIPTION:- Papier\, kartón\n- Kuchynský odpad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: Žltá nádoba\, Kuchynský odpad
+DTSTART;VALUE=DATE:20221230
+DTEND;VALUE=DATE:20221230
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Ku
+ chynský odpad
+END:VEVENT
+END:VCALENDAR
