@@ -21,13 +21,13 @@ LEGEND = {
     'KU':  'Kuchynský odpad',
 }
 NAMES = {
-    'K12': 'Čierna nádoba',
-    'K26': 'Čierna nádoba',
-    'K52': 'Čierna nádoba',
-    'PKV': 'Žltá nádoba',
-    'PAP': 'Modrá nádoba',
-    'BIO': 'Hnedá nádoba',
-    'KU':  'Kuchynský odpad',
+    'K12': 'čierny',
+    'K26': 'čierny',
+    'K52': 'čierny',
+    'PKV': 'žltý',
+    'PAP': 'modrý',
+    'BIO': 'hnedý',
+    'KU':  'kuchynský',
 }
 
 
