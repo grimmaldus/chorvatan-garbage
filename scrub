@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 
 
+SUBSCRIPTION, HTML_FILE, ICS_FILE = sys.argv[1:4]
 YEAR = 2022
-SUBSCRIPTION = ['K12', 'K26', 'K52']
 LEGEND = {
     'K12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
     'K26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
@@ -21,9 +21,9 @@ LEGEND = {
     'KU':  'Kuchynský odpad',
 }
 NAMES = {
-    'K12': 'Čierna nádoba mesačný',
-    'K26': 'Čierna nádoba dvojtýždenný',
-    'K52': 'Čierna nádoba týždenný',
+    'K12': 'Čierna nádoba',
+    'K26': 'Čierna nádoba',
+    'K52': 'Čierna nádoba',
     'PKV': 'Žltá nádoba',
     'PAP': 'Modrá nádoba',
     'BIO': 'Hnedá nádoba',
@@ -43,7 +43,7 @@ def create_event(cal, codes):
     return event
 
 
-with open(sys.argv[1]) as f:
+with open(HTML_FILE) as f:
 	html = f.read()
 
 soup = BeautifulSoup(html, 'html.parser')
@@ -85,9 +85,19 @@ for row in table:
     date = datetime.strptime(
         '%i%i%2i' % (YEAR, month, day),
         '%Y%m%d').date()
-    codes = [i for i in row[2:8] if i != 'X']
+
+    codes = []
+    for i in row[2:8]:
+        if i == 'X':
+            continue
+        if i[0] == 'K' and i != SUBSCRIPTION:
+            continue
+        codes.append(i)
+    if not codes:
+        continue
+
     event = create_event(cal, codes)
     cal.add_component(event)
 
-with open(sys.argv[2], 'wb') as f:
+with open(ICS_FILE, 'wb') as f:
     f.write(cal.to_ical())
