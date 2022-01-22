@@ -83,8 +83,8 @@ for row in table:
     if len(row) <= 4:
         continue
     date = datetime.strptime(
-        '%i%i%2i' % (YEAR, month, day),
-        '%Y%m%d').date()
+        '%i-%i-%i' % (YEAR, month, day),
+        '%Y-%m-%d').date()
 
     codes = []
     for i in row[2:8]:

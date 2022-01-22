@@ -9,22 +9,22 @@ DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- K
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
-DTSTART;VALUE=DATE:20221104
-DTEND;VALUE=DATE:20221104
+DTSTART;VALUE=DATE:20220114
+DTEND;VALUE=DATE:20220114
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Odpad: Čierna nádoba\, Modrá nádoba\, Kuchynský odpad
-DTSTART;VALUE=DATE:20221201
-DTEND;VALUE=DATE:20221201
+DTSTART;VALUE=DATE:20220121
+DTEND;VALUE=DATE:20220121
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Kuchynský odpad
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Odpad: Čierna nádoba\, Žltá nádoba\, Kuchynský odpad
-DTSTART;VALUE=DATE:20221208
-DTEND;VALUE=DATE:20221208
+DTSTART;VALUE=DATE:20220128
+DTEND;VALUE=DATE:20220128
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad
 END:VEVENT
