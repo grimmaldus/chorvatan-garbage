@@ -6,9 +6,19 @@ import locale
 import sys
 
 from bs4 import BeautifulSoup
+from icalendar import Calendar, Event
 
 
 YEAR = 2022
+LEGEND = {
+    'K12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
+    'K26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
+    'K52': 'Komunálny odpad, týždenný vývoz, čierna nádoba',
+    'PKV': 'Plasty, tetrapaky, kovy, konzervy, plechovky, VKM',
+    'PAP': 'Papier, kartón',
+    'BIO': 'Tráva, lístie, konáre, šupky, zelenina, ovocie',
+    'KU':  'Kuchynský odpad',
+}
 
 with open(sys.argv[1]) as f:
 	html = f.read()
@@ -26,6 +36,9 @@ assert len(tables) == 1  # we're only expecting one table
 table = tables[0]
 
 locale.setlocale(locale.LC_ALL, 'sk_SK.utf8')
+
+cal = Calendar()
+cal.add('attendee', 'MAILTO:abc@example.com')
 
 month = None
 day = None
@@ -47,7 +60,17 @@ for row in table:
     if len(row) <= 4:
         continue
     garbage = [i for i in row[2:8] if i != 'X']
+    garbage = '\n'.join(['- ' + LEGEND[i] for i in garbage])
     date = datetime.strptime(
         '%i%i%2i' % (YEAR, month, day),
         '%Y%m%d').date()
-    print(date, garbage)
+    event = Event()
+    event.add('summary', 'Odpad')
+    event.add('description', garbage)
+    event.add('dtstart', date)
+    event.add('dtend', date)
+    #event.add('dtstamp', )
+    cal.add_component(event)
+
+with open(sys.argv[2], 'wb') as f:
+    f.write(cal.to_ical())
