@@ -11,15 +11,6 @@ from icalendar import Calendar, Event
 
 SUBSCRIPTION, HTML_FILE, ICS_FILE = sys.argv[1:4]
 YEAR = 2022
-LEGEND = {
-    'K12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
-    'K26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
-    'K52': 'Komunálny odpad, týždenný vývoz, čierna nádoba',
-    'PKV': 'Plasty, tetrapaky, kovy, konzervy, plechovky, VKM',
-    'PAP': 'Papier, kartón',
-    'BIO': 'Tráva, lístie, konáre, šupky, zelenina, ovocie',
-    'KU':  'Kuchynský odpad',
-}
 NAMES = {
     'K12': 'čierny',
     'K26': 'čierny',
@@ -28,6 +19,15 @@ NAMES = {
     'PAP': 'modrý',
     'BIO': 'hnedý',
     'KU':  'kuchynský',
+}
+LEGEND = {
+    'K12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
+    'K26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
+    'K52': 'Komunálny odpad, týždenný vývoz, čierna nádoba',
+    'PKV': 'Plasty, tetrapaky, kovy, konzervy, plechovky, VKM',
+    'PAP': 'Papier, kartón',
+    'BIO': 'Tráva, lístie, konáre, šupky, zelenina, ovocie',
+    'KU':  'Kuchynský odpad',
 }
 
 
