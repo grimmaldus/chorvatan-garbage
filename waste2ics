@@ -10,6 +10,7 @@ from icalendar import Calendar, Event
 
 
 SUBSCRIPTION, HTML_FILE, ICS_FILE = sys.argv[1:4]
+URL = 'https://chorvatan.sk/odpadovy-kalendar-cierna-voda/'
 YEAR = 2022
 NAMES = {
     'K12': 'čierny',
@@ -34,7 +35,8 @@ LEGEND = {
 def create_event(cal, codes):
     event = Event()
     names = [NAMES[i] for i in codes]
-    description = ['- ' + LEGEND[i] for i in codes]
+    description = ['- ' + LEGEND[i] for i in codes] + \
+                  ['', 'Zdroj: ' + URL]
     event.add('summary', 'Odpad: ' + ' + '.join(names))
     event.add('description', '\n'.join(description))
     event.add('dtstart', date)
