@@ -77,7 +77,6 @@ table = tables[0]
 locale.setlocale(locale.LC_ALL, 'sk_SK.utf8')
 
 cal = Calendar()
-cal.add('attendee', 'MAILTO:abc@example.com')
 
 month = None
 day = None
