@@ -4,11 +4,11 @@ HTMLFILE = $(DATADIR)/waste.html
 
 all: $(DATADIR)/K*.ics
 
-$(DATADIR)/K12.ics: $(BINARY) $(DATADIR)/waste.html
+$(DATADIR)/K12.ics: $(BINARY) $(HTMLFILE)
 	./$(BINARY) K12 $(HTMLFILE) $@
 
-$(DATADIR)/K26.ics: $(BINARY) $(DATADIR)/waste.html
+$(DATADIR)/K26.ics: $(BINARY) $(HTMLFILE)
 	./$(BINARY) K26 $(HTMLFILE) $@
 
-$(DATADIR)/K52.ics: $(BINARY) $(DATADIR)/waste.html
+$(DATADIR)/K52.ics: $(BINARY) $(HTMLFILE)
 	./$(BINARY) K52 $(HTMLFILE) $@
