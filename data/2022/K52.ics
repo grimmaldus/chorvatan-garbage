@@ -4,7 +4,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + kuchynský
 DTSTART;VALUE=DATE:20220107
 DTEND;VALUE=DATE:20220107
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220107@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- K
  uchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-vo
  da/
@@ -13,7 +15,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220114
 DTEND;VALUE=DATE:20220114
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220114@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -22,7 +26,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + kuchynský
 DTSTART;VALUE=DATE:20220121
 DTEND;VALUE=DATE:20220121
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220121@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadov
  y-kalendar-cierna-voda/
@@ -31,7 +37,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220128
 DTEND;VALUE=DATE:20220128
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220128@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -40,7 +48,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + kuchynský
 DTSTART;VALUE=DATE:20220204
 DTEND;VALUE=DATE:20220204
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220204@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- K
  uchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-vo
  da/
@@ -49,7 +59,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220211
 DTEND;VALUE=DATE:20220211
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220211@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -58,7 +70,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + kuchynský
 DTSTART;VALUE=DATE:20220218
 DTEND;VALUE=DATE:20220218
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220218@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadov
  y-kalendar-cierna-voda/
@@ -67,7 +81,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220225
 DTEND;VALUE=DATE:20220225
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220225@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -76,7 +92,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220304
 DTEND;VALUE=DATE:20220304
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220304@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -85,7 +103,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220311
 DTEND;VALUE=DATE:20220311
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220311@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -94,7 +114,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220318
 DTEND;VALUE=DATE:20220318
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220318@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -104,7 +126,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220325
 DTEND;VALUE=DATE:20220325
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220325@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -113,7 +137,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220401
 DTEND;VALUE=DATE:20220401
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220401@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -122,7 +148,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220408
 DTEND;VALUE=DATE:20220408
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220408@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -131,7 +159,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220415
 DTEND;VALUE=DATE:20220415
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220415@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -141,7 +171,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220422
 DTEND;VALUE=DATE:20220422
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220422@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -150,7 +182,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220429
 DTEND;VALUE=DATE:20220429
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220429@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -159,7 +193,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220506
 DTEND;VALUE=DATE:20220506
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220506@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -168,7 +204,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220513
 DTEND;VALUE=DATE:20220513
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220513@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -178,7 +216,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220520
 DTEND;VALUE=DATE:20220520
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220520@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -187,7 +227,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220527
 DTEND;VALUE=DATE:20220527
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220527@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -196,7 +238,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220603
 DTEND;VALUE=DATE:20220603
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220603@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -205,7 +249,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220610
 DTEND;VALUE=DATE:20220610
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220610@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -215,7 +261,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220617
 DTEND;VALUE=DATE:20220617
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220617@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -224,7 +272,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220624
 DTEND;VALUE=DATE:20220624
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220624@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -233,7 +283,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220701
 DTEND;VALUE=DATE:20220701
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220701@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -242,7 +294,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220708
 DTEND;VALUE=DATE:20220708
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220708@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -252,7 +306,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220715
 DTEND;VALUE=DATE:20220715
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220715@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -261,7 +317,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220722
 DTEND;VALUE=DATE:20220722
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220722@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -270,7 +328,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220729
 DTEND;VALUE=DATE:20220729
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220729@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -279,7 +339,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220805
 DTEND;VALUE=DATE:20220805
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220805@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -289,7 +351,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220812
 DTEND;VALUE=DATE:20220812
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220812@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -298,7 +362,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220819
 DTEND;VALUE=DATE:20220819
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220819@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -307,7 +373,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220826
 DTEND;VALUE=DATE:20220826
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220826@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -316,7 +384,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220902
 DTEND;VALUE=DATE:20220902
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220902@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -326,7 +396,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220909
 DTEND;VALUE=DATE:20220909
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220909@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -335,7 +407,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20220916
 DTEND;VALUE=DATE:20220916
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220916@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -344,7 +418,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20220923
 DTEND;VALUE=DATE:20220923
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220923@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -353,7 +429,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20220930
 DTEND;VALUE=DATE:20220930
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20220930@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -363,7 +441,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221007
 DTEND;VALUE=DATE:20221007
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221007@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -372,7 +452,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20221014
 DTEND;VALUE=DATE:20221014
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221014@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -381,7 +463,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221021
 DTEND;VALUE=DATE:20221021
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221021@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -390,7 +474,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20221028
 DTEND;VALUE=DATE:20221028
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221028@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -400,7 +486,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221104
 DTEND;VALUE=DATE:20221104
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221104@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -409,7 +497,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + BIO + kuchynský
 DTSTART;VALUE=DATE:20221111
 DTEND;VALUE=DATE:20221111
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221111@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- T
  ráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n- Kuchynský odpad
  \n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -418,7 +508,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221118
 DTEND;VALUE=DATE:20221118
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221118@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -427,7 +519,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + BIO + kuchynský
 DTSTART;VALUE=DATE:20221125
 DTEND;VALUE=DATE:20221125
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221125@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie
  \n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cier
@@ -437,7 +531,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221202
 DTEND;VALUE=DATE:20221202
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221202@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -446,7 +542,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + kuchynský
 DTSTART;VALUE=DATE:20221209
 DTEND;VALUE=DATE:20221209
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221209@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- K
  uchynský odpad\n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-vo
  da/
@@ -455,7 +553,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221216
 DTEND;VALUE=DATE:20221216
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221216@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
@@ -464,7 +564,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + modrý + kuchynský
 DTSTART;VALUE=DATE:20221223
 DTEND;VALUE=DATE:20221223
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221223@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  apier\, kartón\n- Kuchynský odpad\n\nZdroj: https://chorvatan.sk/odpadov
  y-kalendar-cierna-voda/
@@ -473,7 +575,9 @@ BEGIN:VEVENT
 SUMMARY:Odpad: čierny + žltý + kuchynský
 DTSTART;VALUE=DATE:20221230
 DTEND;VALUE=DATE:20221230
-DTSTAMP;VALUE=DATE-TIME:20220123T114514Z
+DTSTAMP;VALUE=DATE-TIME:20220123T132029Z
+UID:20221230@chorvatan.sk
+SEQUENCE:0
 DESCRIPTION:- Komunálny odpad\, týždenný vývoz\, čierna nádoba\n- P
  lasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n- Kuchynský odpad\
  n\nZdroj: https://chorvatan.sk/odpadovy-kalendar-cierna-voda/
