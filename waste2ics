@@ -42,6 +42,7 @@ def create_event(cal, codes):
     event.add('dtstart', date)
     event.add('dtend', date)
     event.add('dtstamp', datetime.now())
+    event.add('UID', date.strftime('%Y%m%d') + '@chorvatan.sk')
     return event
 
 
