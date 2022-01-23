@@ -11,6 +11,7 @@ from icalendar import Calendar, Event
 
 SUBSCRIPTION, HTML_FILE, ICS_FILE = sys.argv[1:4]
 URL = 'https://chorvatan.sk/odpadovy-kalendar-cierna-voda/'
+SEQUENCE = 0
 YEAR = 2022
 NAMES = {
     'K12': 'čierny',
@@ -43,7 +44,19 @@ def create_event(cal, codes):
     event.add('dtend', date)
     event.add('dtstamp', datetime.now())
     event.add('UID', date.strftime('%Y%m%d') + '@chorvatan.sk')
+    event.add('sequence', SEQUENCE)
     return event
+
+
+with open(ICS_FILE) as f:
+    for line in f:
+        line = line.strip()
+        if ':' not in line:
+            continue
+        key, val = line.split(':', 1)
+        if key == 'SEQUENCE':
+            SEQUENCE = int(val) + 1
+            break
 
 
 with open(HTML_FILE) as f:
