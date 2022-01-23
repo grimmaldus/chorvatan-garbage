@@ -17,7 +17,7 @@ NAMES = {
     'K52': 'čierny',
     'PKV': 'žltý',
     'PAP': 'modrý',
-    'BIO': 'hnedý',
+    'BIO': 'BIO',
     'KU':  'kuchynský',
 }
 LEGEND = {
