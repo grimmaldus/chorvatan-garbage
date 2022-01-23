@@ -4,3 +4,5 @@ http://chorvatan.sk/odpadovy-kalendar-cierna-voda/.
 
 ## Usage
 `$ ./waste2ics sample.html <K12|K26|K52> <HTML_FILE> <ICS_FILE>`
+
+To regenerate the sample files in `data/`, run `make`.
