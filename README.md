@@ -3,4 +3,4 @@ Generate an ICS file for waste collection using the table at
 http://chorvatan.sk/odpadovy-kalendar-cierna-voda/.
 
 ## Usage
-`$ ./scrub sample.html <K12|K26|K52> <HTML_FILE> <ICS_FILE>`
+`$ ./waste2ics sample.html <K12|K26|K52> <HTML_FILE> <ICS_FILE>`
