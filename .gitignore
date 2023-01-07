@@ -1,5 +1,5 @@
 # Data
-data/*/waste.html
+data/*.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
