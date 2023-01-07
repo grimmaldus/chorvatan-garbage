@@ -1,10 +1,54 @@
-# chorvatan-garbage
-Generate an ICS file for waste collection using the table at
-http://chorvatan.sk/odpadovy-kalendar-cierna-voda/.
+# iCal for waste collection in Chorvátsky Grob
 
-## Usage
-`$ ./waste2ics <K12|K26|K52> <HTML_FILE> <ICS_FILE>`
+Waste collection dates in iCalendar format for the municipality of [Chorvátsky
+Grob](https://en.wikipedia.org/wiki/Chorv%C3%A1tsky_Grob), Slovakia, generated
+using the publicly available schedule at http://chorvatan.sk/.
 
-To regenerate the sample files in `data/`, run `make`.  Note that you'll need
-to download the HTML file of the table from the above URL as
-`data/2022/waste.html` in your working dir.
+This repo includes the `.ics` files as well as a script to generate them.
+
+Currently, only the Čierna Voda district is included.
+
+## Using `.ics` files
+
+According to the type of waste collection service your household is subscribed
+to, import one of the following files (or its URL) into your calendar
+application (e.g. Google Calendar).
+
+| Service       | Collection    | File                                                                                      |
+| ------------- | ------------- | ----------------------------------------------------------------------------------------- |
+| F12           | monthly       | [URL](https://raw.githubusercontent.com/grimmaldus/chorvatan-garbage/main/data/F12.ics)   |
+| F26           | bi-weekly     | [URL](https://raw.githubusercontent.com/grimmaldus/chorvatan-garbage/main/data/F26.ics)   |
+| F52           | weekly        | [URL](https://raw.githubusercontent.com/grimmaldus/chorvatan-garbage/main/data/F52.ics)   |
+
+## Generating `.ics` files
+
+```
+$ make
+```
+
+This will download the HTML file, parse the table and create (update) the
+`.ics` files in the `data/` directory.
+
+### Requirements
+
+Fedora packages:
+
+* python3-beautifulsoup4
+* python3-icalendar
+* glibc-langpack-sk
+* make
+
+## Publishing `.ics` files
+
+```
+$ make bump
+```
+
+This will increment the `SEQUENCE` number of each `VEVENT` record to signal an
+update to the calendar applications consuming them.
+
+Finally, review the diff, then commit and publish the files:
+
+```
+$ git push
+```
