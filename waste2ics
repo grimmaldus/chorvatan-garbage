@@ -9,23 +9,23 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 
 
-SUBSCRIPTION, HTML_FILE, ICS_FILE = sys.argv[1:4]
 URL = 'https://chorvatan.sk/odpadovy-kalendar-cierna-voda/'
-SEQUENCE = 0
-YEAR = 2022
+SERVICE, HTML_FILE = sys.argv[1:3]
+SEQUENCE = 0  # Managed by Makefile, just use 0 here
+YEAR = 2023
 NAMES = {
-    'K12': 'čierny',
-    'K26': 'čierny',
-    'K52': 'čierny',
+    'F12': 'čierny',
+    'F26': 'čierny',
+    'F52': 'čierny',
     'PKV': 'žltý',
     'PAP': 'modrý',
     'BIO': 'BIO',
     'KU':  'kuchynský',
 }
 LEGEND = {
-    'K12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
-    'K26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
-    'K52': 'Komunálny odpad, týždenný vývoz, čierna nádoba',
+    'F12': 'Komunálny odpad, mesačný vývoz, čierna nádoba',
+    'F26': 'Komunálny odpad, dvojtýždenný vývoz, čierna nádoba',
+    'F52': 'Komunálny odpad, týždenný vývoz, čierna nádoba',
     'PKV': 'Plasty, tetrapaky, kovy, konzervy, plechovky, VKM',
     'PAP': 'Papier, kartón',
     'BIO': 'Tráva, lístie, konáre, šupky, zelenina, ovocie',
@@ -33,7 +33,7 @@ LEGEND = {
 }
 
 
-def create_event(cal, codes):
+def create_event(date, codes):
     event = Event()
     names = [NAMES[i] for i in codes]
     description = ['- ' + LEGEND[i] for i in codes] + \
@@ -48,21 +48,9 @@ def create_event(cal, codes):
     return event
 
 
-with open(ICS_FILE) as f:
-    for line in f:
-        line = line.strip()
-        if ':' not in line:
-            continue
-        key, val = line.split(':', 1)
-        if key == 'SEQUENCE':
-            SEQUENCE = int(val) + 1
-            break
-
-
 with open(HTML_FILE) as f:
-	html = f.read()
-
-soup = BeautifulSoup(html, 'html.parser')
+	file = f.read()
+soup = BeautifulSoup(file, 'html.parser')
 tables = [
     [
         [td.get_text(strip=True) for td in tr.find_all('td')]
@@ -84,15 +72,13 @@ for row in table:
     if not row:
         continue
     if len(row) == 1:
-        #import ipdb; ipdb.set_trace()
         month = row[0]
         if not month:
             continue
         month = strptime(month[:3], '%b').tm_mon
         continue
-    col = row[0]
     try:
-        day = int(col)
+        day = int(row[0])
     except:
         continue
     if len(row) <= 4:
@@ -102,17 +88,16 @@ for row in table:
         '%Y-%m-%d').date()
 
     codes = []
-    for i in row[2:8]:
-        if i == 'X':
+    for col in row[2:]:
+        if col not in NAMES:
             continue
-        if i[0] == 'K' and i != 'KU' and i != SUBSCRIPTION:
+        if col.startswith('F') and col != SERVICE:
             continue
-        codes.append(i)
+        codes.append(col)
     if not codes:
         continue
 
-    event = create_event(cal, codes)
+    event = create_event(date, codes)
     cal.add_component(event)
 
-with open(ICS_FILE, 'wb') as f:
-    f.write(cal.to_ical())
+print(cal.to_ical().decode('utf-8'))
