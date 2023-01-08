@@ -1,24 +1,21 @@
 # iCal for waste collection in Chorvátsky Grob
 
-Waste collection dates in iCalendar format for the municipality of [Chorvátsky
-Grob](https://en.wikipedia.org/wiki/Chorv%C3%A1tsky_Grob), Slovakia, generated
-using the publicly available schedule at http://chorvatan.sk/.
+Generate `.ics` files from the publicly available waste collection service
+[calendar](https://chorvatan.sk/odpadovy-kalendar-cierna-voda/) of the
+municipality of [Chorvátsky
+Grob](https://en.wikipedia.org/wiki/Chorv%C3%A1tsky_Grob), Slovakia.
 
 This repo includes the `.ics` files as well as a script to generate them.
+Currently, only the Čierna Voda district is supported.
 
-Currently, only the Čierna Voda district is included.
+## Requirements
 
-## Using `.ics` files
+Fedora packages:
 
-According to the type of waste collection service your household is subscribed
-to, import one of the following files (or its URL) into your calendar
-application (e.g. Google Calendar).
-
-| Service       | Collection    | File                                                                                      |
-| ------------- | ------------- | ----------------------------------------------------------------------------------------- |
-| F12           | monthly       | [URL](https://raw.githubusercontent.com/grimmaldus/chorvatan-garbage/main/data/F12.ics)   |
-| F26           | bi-weekly     | [URL](https://raw.githubusercontent.com/grimmaldus/chorvatan-garbage/main/data/F26.ics)   |
-| F52           | weekly        | [URL](https://raw.githubusercontent.com/grimmaldus/chorvatan-garbage/main/data/F52.ics)   |
+* python3-beautifulsoup4
+* python3-icalendar
+* glibc-langpack-sk
+* make
 
 ## Generating `.ics` files
 
@@ -27,16 +24,7 @@ $ make
 ```
 
 This will download the HTML file, parse the table and create (update) the
-`.ics` files in the `data/` directory.
-
-### Requirements
-
-Fedora packages:
-
-* python3-beautifulsoup4
-* python3-icalendar
-* glibc-langpack-sk
-* make
+`.ics` files in the `docs/` directory.
 
 ## Publishing `.ics` files
 
