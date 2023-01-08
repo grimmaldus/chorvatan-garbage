@@ -1,6 +1,6 @@
 # iCal pre vývoz odpadu Čierna Voda
 
-Na tejto stránke si môžete stiahnuť aktuálny odpadový kalendár pre obec
+Na tejto stránke si môžete stiahnuť aktuálne odpadové kalendáre pre obec
 Chorvátsky Grob (časť Čierna Voda) vo formáte iCalendar, ktorý podporujú bežné
 kalendárové aplikácie ako napr. Google Calendar alebo Outlook.
 
