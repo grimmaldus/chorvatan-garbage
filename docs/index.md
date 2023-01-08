@@ -15,10 +15,11 @@ kalendárové aplikácie ako napr. Google Calendar alebo Outlook.
 | F26           | 2x do mesiaca (dvojtýždňová)  | [Pridať kalendár](https://grimmaldus.github.io/chorvatan-garbage/F26.ics) |
 | F52           | 4x do mesiaca (týždňová)      | [Pridať kalendár](https://grimmaldus.github.io/chorvatan-garbage/F52.ics) |
 
-*Poznámka:* V prípade, ze po kliknutí na odkaz sa nič neudeje, môžete si
-príslušný kalendár importovať do vašej kalendárovej aplikácie priamo z URL
-adresy, ktorú získate tak, že kliknete na "Pridať kalendár" pravým tlačidlom
-myši a vyberiete "Kopírovať odkaz".
+*Poznámka:* V prípade, že po kliknutí na odkaz sa nič neudeje, váš systém nie
+je nakonfigurovaný na pridávanie kalendárov týmto spôsobom.  V takom prípade si
+vo vašej kalendárovej aplikácii nájdite funkciu importovania kalendára z URL
+adresy.  Túto adresu získate tak, že kliknete na "Pridať kalendár" pravým
+tlačidlom myši a vyberiete "Kopírovať odkaz".
 
 Kalendáre sú aktualizované pre rok 2023.
 
