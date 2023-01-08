@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 
 
-URL = 'https://chorvatan.sk/odpadovy-kalendar-cierna-voda/'
+URL = 'https://grimmaldus.github.io/chorvatan-garbage/'
 SERVICE, HTML_FILE = sys.argv[1:3]
 SEQUENCE = 0  # Managed by Makefile, just use 0 here
 YEAR = 2023
