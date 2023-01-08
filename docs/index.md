@@ -11,9 +11,9 @@ kalendárové aplikácie ako napr. Google Calendar alebo Outlook.
 
 | Kód           | Frekvencia vývozu             |                                                                           |
 | ------------- | ----------------------------- | ------------------------------------------------------------------------- |
-| F12           | 1x do mesiaca (mesačná)       | [Pridať kalendár](https://grimmaldus.github.io/chorvatan-garbage/F12.ics) |
-| F26           | 2x do mesiaca (dvojtýždňová)  | [Pridať kalendár](https://grimmaldus.github.io/chorvatan-garbage/F26.ics) |
-| F52           | 4x do mesiaca (týždňová)      | [Pridať kalendár](https://grimmaldus.github.io/chorvatan-garbage/F52.ics) |
+| F12           | 1x do mesiaca (mesačná)       | [Pridať kalendár](webcal://grimmaldus.github.io/chorvatan-garbage/F12.ics) |
+| F26           | 2x do mesiaca (dvojtýždňová)  | [Pridať kalendár](webcal://grimmaldus.github.io/chorvatan-garbage/F26.ics) |
+| F52           | 4x do mesiaca (týždňová)      | [Pridať kalendár](webcal://grimmaldus.github.io/chorvatan-garbage/F52.ics) |
 
 *Poznámka:* V prípade, že po kliknutí na odkaz sa nič neudeje, váš systém nie
 je nakonfigurovaný na pridávanie kalendárov týmto spôsobom.  V takom prípade si
