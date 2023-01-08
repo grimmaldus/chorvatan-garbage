@@ -34,7 +34,7 @@ skript) na konverziu tohto HTML kalendára do `.ics` formátu.
 ## Licencia
 
 Samotné `.ics` súbory na tejto stránke ako i program na ich generovanie sú
-dostupné pod verejnou licenciou
+voľne dostupné pod verejnou licenciou
 [GPLv3.0](https://sk.wikipedia.org/wiki/GNU_General_Public_License).
 
 Autori:
