@@ -14,10 +14,6 @@ f.close(); \
 
 all: $(DATADIR)/F12.ics $(DATADIR)/F26.ics $(DATADIR)/F52.ics
 
-$(ROOTFILE):
-	@mkdir -p $(CACHEDIR)
-	@curl -so $@ '$(URL)'
-
 bump: all
 	$(eval SEQUENCE = $(shell grep '^SEQUENCE' $(DATADIR)/F12.ics | \
 				  head -1 | cut -d':' -f2 | \
@@ -26,6 +22,10 @@ bump: all
 	    sed -i '/^SEQUENCE/s/:.*$$/:$(SEQUENCE)\r/' \
 		   $(DATADIR)/$${FILE}.ics; \
 	done
+
+$(ROOTFILE):
+	@mkdir -p $(CACHEDIR)
+	@curl -so $@ '$(URL)'
 
 $(HTMLFILE): $(ROOTFILE)
 	@curl -so $@ `$(call PARSE_URL)`
