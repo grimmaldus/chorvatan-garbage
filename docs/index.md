@@ -21,7 +21,7 @@ vo vašej kalendárovej aplikácii nájdite funkciu importovania kalendára z UR
 adresy.  Túto adresu získate tak, že kliknete na "Pridať kalendár" pravým
 tlačidlom myši a vyberiete "Kopírovať odkaz".
 
-Kalendáre sú aktualizované pre rok 2023.
+Kalendáre sú aktualizované pre rok 2024.
 
 ## Motivácia
 
