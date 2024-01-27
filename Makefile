@@ -11,13 +11,13 @@ soup = BeautifulSoup(f.read(), 'html.parser'); \
 print(soup.find_all('iframe')[0]['src']); \
 f.close(); \
 "
+SEQUENCE := $(shell grep '^SEQUENCE' $(DATADIR)/F12.ics | \
+                    head -1 | cut -d':' -f2 | \
+                    awk '{print $$1 + 1}')
 
 all: $(DATADIR)/F12.ics $(DATADIR)/F26.ics $(DATADIR)/F52.ics
 
 bump: all
-	$(eval SEQUENCE = $(shell grep '^SEQUENCE' $(DATADIR)/F12.ics | \
-				  head -1 | cut -d':' -f2 | \
-				  awk '{print $$1 + 1}'))
 	@for FILE in F12 F26 F52; do \
 	    sed -i '/^SEQUENCE/s/:.*$$/:$(SEQUENCE)\r/' \
 		   $(DATADIR)/$${FILE}.ics; \
