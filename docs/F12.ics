@@ -1,264 +1,124 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
 SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240102
-DTEND;VALUE=DATE:20240102
-DTSTAMP:20240107T232655Z
-UID:20240102@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: čierny
-DTSTART;VALUE=DATE:20240105
-DTEND;VALUE=DATE:20240105
-DTSTAMP:20240107T232655Z
-UID:20240105@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n\nZdr
- oj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240108
-DTEND;VALUE=DATE:20240108
-DTSTAMP:20240107T232655Z
-UID:20240108@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: žltý
-DTSTART;VALUE=DATE:20240112
-DTEND;VALUE=DATE:20240112
-DTSTAMP:20240107T232655Z
-UID:20240112@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
- roj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240115
-DTEND;VALUE=DATE:20240115
-DTSTAMP:20240107T232655Z
-UID:20240115@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: modrý
-DTSTART;VALUE=DATE:20240119
-DTEND;VALUE=DATE:20240119
-DTSTAMP:20240107T232655Z
-UID:20240119@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Papier\, kartón\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240122
-DTEND;VALUE=DATE:20240122
-DTSTAMP:20240107T232655Z
-UID:20240122@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: žltý
-DTSTART;VALUE=DATE:20240126
-DTEND;VALUE=DATE:20240126
-DTSTAMP:20240107T232655Z
-UID:20240126@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
- roj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240129
-DTEND;VALUE=DATE:20240129
-DTSTAMP:20240107T232655Z
-UID:20240129@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: čierny
-DTSTART;VALUE=DATE:20240202
-DTEND;VALUE=DATE:20240202
-DTSTAMP:20240107T232655Z
-UID:20240202@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n\nZdr
- oj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240205
-DTEND;VALUE=DATE:20240205
-DTSTAMP:20240107T232655Z
-UID:20240205@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: žltý
-DTSTART;VALUE=DATE:20240209
-DTEND;VALUE=DATE:20240209
-DTSTAMP:20240107T232655Z
-UID:20240209@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
- roj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240212
-DTEND;VALUE=DATE:20240212
-DTSTAMP:20240107T232655Z
-UID:20240212@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: modrý
-DTSTART;VALUE=DATE:20240216
-DTEND;VALUE=DATE:20240216
-DTSTAMP:20240107T232655Z
-UID:20240216@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Papier\, kartón\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240219
-DTEND;VALUE=DATE:20240219
-DTSTAMP:20240107T232655Z
-UID:20240219@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: žltý
-DTSTART;VALUE=DATE:20240223
-DTEND;VALUE=DATE:20240223
-DTSTAMP:20240107T232655Z
-UID:20240223@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
- roj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240226
-DTEND;VALUE=DATE:20240226
-DTSTAMP:20240107T232655Z
-UID:20240226@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: čierny + BIO
-DTSTART;VALUE=DATE:20240301
-DTEND;VALUE=DATE:20240301
-DTSTAMP:20240107T232655Z
-UID:20240301@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Tr
- áva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n\nZdroj: https://gr
- immaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240304
-DTEND;VALUE=DATE:20240304
-DTSTAMP:20240107T232655Z
-UID:20240304@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: žltý
-DTSTART;VALUE=DATE:20240308
-DTEND;VALUE=DATE:20240308
-DTSTAMP:20240107T232655Z
-UID:20240308@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
- roj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240311
-DTEND;VALUE=DATE:20240311
-DTSTAMP:20240107T232655Z
-UID:20240311@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: modrý + BIO
-DTSTART;VALUE=DATE:20240315
-DTEND;VALUE=DATE:20240315
-DTSTAMP:20240107T232655Z
-UID:20240315@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
- lenina\, ovocie\n\nZdroj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240318
-DTEND;VALUE=DATE:20240318
-DTSTAMP:20240107T232655Z
-UID:20240318@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
- vatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: žltý
-DTSTART;VALUE=DATE:20240322
-DTEND;VALUE=DATE:20240322
-DTSTAMP:20240107T232655Z
-UID:20240322@chorvatan.sk
-SEQUENCE:0
-DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
- roj: https://grimmaldus.github.io/chorvatan-garbage/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Odpad: kuchynský
-DTSTART;VALUE=DATE:20240325
-DTEND;VALUE=DATE:20240325
-DTSTAMP:20240107T232655Z
-UID:20240325@chorvatan.sk
-SEQUENCE:0
+DTSTART;VALUE=DATE:20240422
+DTEND;VALUE=DATE:20240422
+DTSTAMP:20240427T184709Z
+UID:20240422@chorvatan.sk
+SEQUENCE:1
 DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
  vatan-garbage/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Odpad: BIO
-DTSTART;VALUE=DATE:20240329
-DTEND;VALUE=DATE:20240329
-DTSTAMP:20240107T232655Z
-UID:20240329@chorvatan.sk
-SEQUENCE:0
+DTSTART;VALUE=DATE:20240426
+DTEND;VALUE=DATE:20240426
+DTSTAMP:20240427T184709Z
+UID:20240426@chorvatan.sk
+SEQUENCE:1
 DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n\nZ
  droj: https://grimmaldus.github.io/chorvatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: kuchynský
+DTSTART;VALUE=DATE:20240429
+DTEND;VALUE=DATE:20240429
+DTSTAMP:20240427T184709Z
+UID:20240429@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
+ vatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: čierny + žltý
+DTSTART;VALUE=DATE:20240503
+DTEND;VALUE=DATE:20240503
+DTSTAMP:20240427T184709Z
+UID:20240503@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Komunálny odpad\, mesačný vývoz\, čierna nádoba\n- Pla
+ sty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZdroj: https://grim
+ maldus.github.io/chorvatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: kuchynský
+DTSTART;VALUE=DATE:20240506
+DTEND;VALUE=DATE:20240506
+DTSTAMP:20240427T184709Z
+UID:20240506@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
+ vatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: modrý + BIO
+DTSTART;VALUE=DATE:20240510
+DTEND;VALUE=DATE:20240510
+DTSTAMP:20240427T184709Z
+UID:20240510@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Papier\, kartón\n- Tráva\, lístie\, konáre\, šupky\, ze
+ lenina\, ovocie\n\nZdroj: https://grimmaldus.github.io/chorvatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: kuchynský
+DTSTART;VALUE=DATE:20240513
+DTEND;VALUE=DATE:20240513
+DTSTAMP:20240427T184709Z
+UID:20240513@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
+ vatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: žltý
+DTSTART;VALUE=DATE:20240517
+DTEND;VALUE=DATE:20240517
+DTSTAMP:20240427T184709Z
+UID:20240517@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
+ roj: https://grimmaldus.github.io/chorvatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: kuchynský
+DTSTART;VALUE=DATE:20240520
+DTEND;VALUE=DATE:20240520
+DTSTAMP:20240427T184709Z
+UID:20240520@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
+ vatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: BIO
+DTSTART;VALUE=DATE:20240524
+DTEND;VALUE=DATE:20240524
+DTSTAMP:20240427T184709Z
+UID:20240524@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Tráva\, lístie\, konáre\, šupky\, zelenina\, ovocie\n\nZ
+ droj: https://grimmaldus.github.io/chorvatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: kuchynský
+DTSTART;VALUE=DATE:20240527
+DTEND;VALUE=DATE:20240527
+DTSTAMP:20240427T184709Z
+UID:20240527@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Kuchynský odpad\n\nZdroj: https://grimmaldus.github.io/chor
+ vatan-garbage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Odpad: žltý
+DTSTART;VALUE=DATE:20240531
+DTEND;VALUE=DATE:20240531
+DTSTAMP:20240427T184709Z
+UID:20240531@chorvatan.sk
+SEQUENCE:1
+DESCRIPTION:- Plasty\, tetrapaky\, kovy\, konzervy\, plechovky\, VKM\n\nZd
+ roj: https://grimmaldus.github.io/chorvatan-garbage/
 END:VEVENT
 END:VCALENDAR
 
